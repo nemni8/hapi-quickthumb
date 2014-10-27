@@ -1,6 +1,6 @@
 {
   "name": "hapi-quickthumb",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "On the fly, thumbnail creation plugin for hapi.",
   "author": "beeant <beeant@gmail.com>",
   "main": "index.js",
