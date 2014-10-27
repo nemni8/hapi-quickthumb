@@ -1,8 +1,8 @@
 {
-  "name": "quickthumb",
-  "version": "0.0.10",
-  "description": "On the fly, thumbnail creation middleware for express.",
-  "author": "Zach Ivester <zivester@gmail.com>",
+  "name": "hapi-quickthumb",
+  "version": "0.1.0",
+  "description": "On the fly, thumbnail creation plugin for hapi.",
+  "author": "beeant <beeant@gmail.com>",
   "main": "index.js",
   "scripts": {
     "test": "node test/simple-test.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zivester/node-quickthumb.git"
+    "url": "https://github.com/beeant/hapi-quickthumb.git"
   },
   "bugs": {
-    "url": "https://github.com/zivester/node-quickthumb/issues"
+    "url": "https://github.com/beeant/hapi-quickthumb/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://github.com/zivester/node-quickthumb/raw/master/LICENSE"
+      "url": "http://github.com/beeant/hapi-quickthumb/raw/master/LICENSE"
     }
   ],
   "keywords": [
@@ -33,5 +33,6 @@
   "dependencies": {
     "imagemagick": "git://github.com/rsms/node-imagemagick.git",
     "mkdirp": "~0.3.3"
-  }
+  },
+  "homepage": "https://github.com/beeant/hapi-quickthumb"
 }

@@ -7,11 +7,15 @@ QuickThumb also comes with a command line utility to batch create thumbnails.  T
 ## Examples
 
 ```js
-var express = require('express'),
-    app = express(),
-    qt = require('quickthumb');
-
-app.use('/public', qt.static(__dirname + '/../public'));
+  server.pack.register([{
+    plugin: require('hapi-quickthumb'),
+    options: {
+      root: path.join(__dirname, config.publicDir),
+      path: '/files/{subdir*}'
+    }
+  }], function(err) {
+    server.start();
+  });
 ```
 
 ```html
@@ -20,7 +24,7 @@ app.use('/public', qt.static(__dirname + '/../public'));
 
 ## Install
 
-    npm install quickthumb
+    npm install hapi-quickthumb
 
 ImageMagick is required for this module, so make sure it is installed.
 
