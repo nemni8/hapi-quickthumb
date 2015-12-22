@@ -1,6 +1,6 @@
 {
   "name": "hapi-quickthumb",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "On the fly, thumbnail creation plugin for hapi.",
   "author": "beeant <beeant@gmail.com>",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/beeant/hapi-quickthumb.git"
+    "url": "https://github.com/nemni8/hapi-quickthumb.git"
   },
   "bugs": {
     "url": "https://github.com/beeant/hapi-quickthumb/issues"
@@ -32,6 +32,8 @@
   ],
   "dependencies": {
     "imagemagick": "git://github.com/rsms/node-imagemagick.git",
+    "underscore": "^1.8.3",
+    "caman": "^4.1.2",
     "mkdirp": "~0.3.3"
   },
   "homepage": "https://github.com/beeant/hapi-quickthumb"
